@@ -1,0 +1,784 @@
+body {
+  height: 100%;
+}
+
+.space {
+  padding-left: 20px;
+}
+
+.list-group-item {
+  background-color: #207ca3;
+  color: #F59579;
+}
+
+a {
+  color: #f59579;
+}
+
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card .card-heading {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.card .card-heading.simple {
+  font-size: 20px;
+  font-weight: 300;
+  color: #777;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  margin-right: 15px;
+  vertical-align: top;
+  border: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+  font-size: 12px;
+  color: #999999;
+}
+
+.card .card-body {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.card .card-media {
+  padding: 0 20px;
+  margin: 0 -14px;
+}
+
+.card .card-media img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card .card-actions {
+  min-height: 30px;
+  padding: 0 20px 20px 20px;
+  margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+  padding: 20px;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.card .card-comments .comments-collapse-toggle {
+  padding: 0;
+  margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+  padding-right: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-comments .media-heading {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card.people {
+  position: relative;
+  display: inline-block;
+  width: 170px;
+  height: 300px;
+  padding-top: 0;
+  margin-left: 20px;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.card.people:first-child {
+  margin-left: 0;
+}
+
+.card.people .card-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 170px;
+  height: 150px;
+  background-color: #ffffff;
+}
+
+.card.people .card-top.green {
+  background-color: #53a93f;
+}
+
+.card.people .card-top.blue {
+  background-color: #427fed;
+}
+
+.card.people .card-info {
+  position: absolute;
+  top: 150px;
+  display: inline-block;
+  width: 100%;
+  height: 101px;
+  overflow: hidden;
+  background: #ffffff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card.people .card-info .title {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #404040;
+}
+
+.card.people .card-info .desc {
+  display: block;
+  margin: 8px 14px 0 14px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 16px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.card.people .card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 29px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: rgba(214, 224, 226, 0.2);
+}
+
+.card.hovercard .cardheader {
+  background: url("../img/1 (2).png");
+  background-size: cover;
+  height: 135px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card.hovercard .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #262626;
+  vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+.glyphicon-lg {
+  font-size: 4em;
+}
+
+.info-block {
+  border-right: 5px solid #E6E6E6;
+  margin-bottom: 25px;
+}
+
+.info-block .square-box {
+  width: 100px;
+  min-height: 110px;
+  margin-right: 22px;
+  text-align: center !important;
+  background-color: #676767;
+  padding: 20px 0;
+}
+
+.info-block.block-info {
+  border-color: #20819e;
+}
+
+.info-block.block-info .square-box {
+  background-color: #20819e;
+  color: #FFF;
+}
+
+#doctor {
+  padding-bottom: 10px;
+}
+
+.main-card {
+  padding-bottom: 15px;
+}
+
+.card-title {
+  background-color: gray;
+  padding-top: 0px;
+}
+.card-title a {
+  color: black;
+}
+
+nav {
+  padding-left: 15px;
+}
+
+.dept {
+  padding-top: 30px;
+}
+.dept ol li {
+  color: blue;
+}
+.dept ol li a {
+  color: blue;
+}
+
+.card-space {
+  padding: 10px;
+}
+
+.pharma p {
+  padding-bottom: 10px;
+}
+
+.medical-center h3 {
+  color: black;
+}
+
+.activity-feed {
+  padding: 15px;
+}
+
+.activity-feed .feed-item {
+  position: relative;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  border-left: 2px solid #e4e8eb;
+}
+
+.activity-feed .feed-item:last-child {
+  border-color: transparent;
+}
+
+.activity-feed .feed-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #f37167;
+}
+
+.activity-feed .feed-item .date {
+  position: relative;
+  top: -5px;
+  color: #8c96a3;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.activity-feed .feed-item .text {
+  position: relative;
+  top: -3px;
+}
+
+.footer-socialicon {
+  border: 2px solid #3E5370;
+  border-radius: 50%;
+  color: #EC1B24;
+  font-size: 22px;
+  height: 52px;
+  padding-top: 13px;
+  text-align: center;
+  width: 52px;
+}
+
+a.footer-socialicon {
+  color: #EC1B24;
+  text-decoration: none;
+}
+
+.footer-socialicon:hover {
+  color: #ffffff;
+  background-color: #22CFF7;
+  text-decoration: none;
+}
+
+#subfooter {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: gray;
+}
+
+#footer {
+  color: #ffffff;
+  background-color: #222222;
+  padding-top: 15px;
+  padding-bottom: 00px;
+}
+
+#footer a {
+  color: #ffffff;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.img-responsive {
+  margin: auto;
+}
+
+.btn {
+  border-radius: 0%;
+  height: 38px;
+  line-height: 0px;
+}
+
+.text {
+  padding-left: 190px;
+  padding-bottom: 30px;
+}
+
+.Almond {
+  background-color: #70ad46;
+}
+
+.Apple {
+  background-color: #ffc000;
+}
+
+.apple-cider {
+  background-color: #ed7d31;
+}
+
+.Aloe-Vera {
+  background-color: #ffc000;
+}
+
+.Banana {
+  background-color: #70ad46;
+}
+
+.Basil {
+  background-color: #ed7d31;
+}
+
+.Beans {
+  background-color: #ffc000;
+}
+
+.Beetroot {
+  background-color: #70ad46;
+}
+
+.Bitter {
+  background-color: #ed7d31;
+}
+
+.Eggs {
+  background-color: #ffc000;
+}
+
+.Broccoli {
+  background-color: #ed7d31;
+}
+
+.Cabbage {
+  background-color: #ffc000;
+}
+
+.Dates {
+  background-color: #70ad46;
+}
+
+.Honey {
+  background-color: #ed7d31;
+}
+
+.molla {
+  border: 2px solid transparent;
+  padding-bottom: 20px;
+}
+
+.text {
+  padding-left: 190px;
+  padding-bottom: 30px;
+}
+
+.Almond {
+  background-color: #70ad46;
+}
+
+.Apple {
+  background-color: #ffc000;
+}
+
+.apple-cider {
+  background-color: #ed7d31;
+}
+
+.Aloe-Vera {
+  background-color: #ffc000;
+}
+
+.Banana {
+  background-color: #70ad46;
+}
+
+.Basil {
+  background-color: #ed7d31;
+}
+
+.Beans {
+  background-color: #ffc000;
+}
+
+.Beetroot {
+  background-color: #70ad46;
+}
+
+.Bitter {
+  background-color: #ed7d31;
+}
+
+.Eggs {
+  background-color: #ffc000;
+}
+
+.Broccoli {
+  background-color: #ed7d31;
+}
+
+.Cabbage {
+  background-color: #ffc000;
+}
+
+.Dates {
+  background-color: #70ad46;
+}
+
+.Honey {
+  background-color: #ed7d31;
+}
+
+.top {
+  background-color: red;
+}
+
+.top1 {
+  background-color: #3E5370;
+}
+
+.btn-info {
+  color: #F59579;
+  background-color: transparent;
+  border-color: #17a2b8;
+}
+
+.btn {
+  border-radius: 0%;
+  line-height: 0px;
+}
+
+.ft {
+  width: 220px;
+  height: 38px;
+}
+
+a {
+  color: white;
+}
+
+.list-group-item {
+  background-color: #1d4349;
+}
+
+.dropdown-menu {
+  background-color: #3E5370;
+}
+
+.dropdown-item {
+  color: #fff;
+  background-color: transparent;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #22CFF7;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+  color: #22CFF7;
+}
+
+#login-dp {
+  min-width: 250px;
+  padding: 14px 14px 0;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#login-dp .help-block {
+  font-size: 12px;
+}
+
+#login-dp .bottom {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top: 1px solid #ddd;
+  clear: both;
+  padding: 14px;
+}
+
+#login-dp .social-buttons {
+  margin: 12px 0;
+}
+
+#login-dp .social-buttons a {
+  width: 49%;
+}
+
+#login-dp .form-group {
+  margin-bottom: 10px;
+}
+
+.btn-fb {
+  color: #fff;
+  background-color: #3b5998;
+}
+
+.btn-fb:hover {
+  color: #fff;
+  background-color: #496ebc;
+}
+
+.btn-tw {
+  color: #fff;
+  background-color: #55acee;
+}
+
+.btn-tw:hover {
+  color: #fff;
+  background-color: #59b5fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+  color: #22CFF7;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.list-group-item {
+  padding-bottom: 14px;
+}
+
+a:hover {
+  color: #22CFF7;
+  text-decoration: underline;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.signin {
+  border: 2px solid gray;
+  padding: 30px 30px;
+}
+
+.scrollup {
+  font-size: 22px;
+  color: #22CFF7;
+  background-color: #3E5370;
+  border: 2px solid #335cba;
+  padding: 4px;
+  cursor: pointer;
+  position: fixed;
+  right: 42px;
+  bottom: 20px;
+  display: none;
+}
+
+.content {
+  padding-top: 30px;
+}
+
+/* Testimonials */
+.testimonials blockquote {
+  background: #f8f8f8 none repeat scroll 0 0;
+  border: medium none;
+  color: black;
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+.testimonials blockquote::before {
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  position: absolute;
+  border-bottom: 20px solid #fff;
+  border-right: 0 solid transparent;
+  border-left: 15px solid transparent;
+  border-left-style: inset;
+  /*FF fixes*/
+  border-bottom-style: inset;
+  /*FF fixes*/
+}
+
+.testimonials blockquote::after {
+  width: 0;
+  height: 0;
+  right: 0;
+  bottom: 0;
+  content: " ";
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 20px 0 0;
+  border-color: #e63f0c transparent transparent transparent;
+}
+
+.testimonials .carousel-info img {
+  border: 1px solid #f5f5f5;
+  border-radius: 150px !important;
+  height: 75px;
+  padding: 3px;
+  width: 75px;
+}
+
+.testimonials .carousel-info {
+  overflow: hidden;
+}
+
+.testimonials .carousel-info img {
+  margin-right: 15px;
+}
+
+.testimonials .carousel-info span {
+  display: block;
+}
+
+.testimonials span.testimonials-name {
+  color: #e6400c;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 23px 0 7px;
+}
+
+.testimonials span.testimonials-post {
+  color: #656565;
+  font-size: 12px;
+}
+
+.testimonials .carousel-info img {
+  border: 1px solid #137dd7;
+  border-radius: 150px !important;
+  height: 75px;
+  padding: 3px;
+  width: 75px;
+}
+
+.testimonials blockquote {
+  background-color: #bfbfbf;
+}
+
+/*# sourceMappingURL=style.css.map */

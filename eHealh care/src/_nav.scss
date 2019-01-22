@@ -1,0 +1,109 @@
+.top{
+    background-color: $primary-color1;
+}
+.top1{
+    background-color: $primary-color2;
+}
+.btn-info {
+    color: #F59579;
+    background-color: transparent;
+    border-color: #17a2b8;
+}
+.btn {
+    border-radius: 0%;
+     // width: 220px;
+     // height: 38px;
+    line-height: 0px;
+}
+.ft{
+    width: 220px;
+    height: 38px;
+}
+a {
+    color:white;
+}
+.list-group-item {
+    
+    background-color:$inverse-color;
+
+
+}
+.dropdown-menu{
+    
+    background-color:$primary-color2; 
+        
+}
+.dropdown-item{
+        color:#fff; 
+        background-color:transparent; 
+    }
+    .dropdown-item:focus, .dropdown-item:hover {
+    color: $primary-color3;
+    text-decoration: none;
+    background-color:transparent ;
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color:$primary-color3 ;
+}
+#login-dp{
+
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link:hover  {
+    color:$primary-color3;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+
+.list-group-item {
+    
+    padding-bottom: 14px;
+}
+a:hover {
+    color: $primary-color3;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,14 @@
+.scrollup{
+font-size:22px;
+color: $primary-color3; 
+background-color: $primary-color2;
+border: 2px solid #335cba;
+padding: 4px;
+// width: 30px;
+// height: 30px;
+cursor: pointer;
+position: fixed;
+right:42px;
+bottom: 20px;  
+display:none;
+}
